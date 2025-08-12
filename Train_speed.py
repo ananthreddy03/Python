@@ -2,7 +2,7 @@ def time(dist,speed):
  
  speed=int(input("Enter the speed of the train: "))
  if(speed<1 or speed>200):
-  print("Error");
+  print("Error")
   return None
    
  else:
