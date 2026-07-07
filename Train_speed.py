@@ -9,6 +9,6 @@ def time(dist,speed):
   time_taken=(dist/speed)*(18/5)
   return time_taken
 
-result=time(400,0)
+result=time(400, speed)
 if result is not None:
   print(result)
